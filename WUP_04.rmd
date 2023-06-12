@@ -57,7 +57,11 @@ LT High School would not overlap with Junior College or Graduate, thus showing t
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(WORDSUM~DEGREE,data=thedata)
+```
 
+The average score on the WORDSUM test for graduates was a little over 1o. Theres a difference between the average score in Graduate school and the average score in Junior College. Thus further proving that the schooling are different than each other. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
